@@ -2,3 +2,11 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.main-container { 
+    @apply bg-gray-200 dark:bg-gray-900 text-gray-900 dark:text-gray-200 min-h-[85vh] min-w-full p-5
+}
+
+.header-link { 
+    @apply mr-6 hover:text-gray-900 dark:hover:text-green-500
+}
