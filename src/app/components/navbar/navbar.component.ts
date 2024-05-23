@@ -1,5 +1,5 @@
 import { Component, inject } from '@angular/core';
-import { DarkModeService } from '../services/dark-mode.service';
+import { DarkModeService } from '../../services/dark-mode.service';
 import { RouterLink, RouterModule, RouterOutlet } from '@angular/router';
 import { CommonModule } from '@angular/common';
 

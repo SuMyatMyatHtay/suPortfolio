@@ -1,13 +1,13 @@
 import { Routes } from '@angular/router';
-import { HomeComponent } from './content/home/home.component';
-import { AboutmeComponent } from './content/aboutme/aboutme.component';
-import { ProjectsComponent } from './content/projects/projects.component';
+import { HomeComponent } from './pages/home/home.component';
+import { AboutmeComponent } from './pages/aboutme/aboutme.component';
+import { ProjectsComponent } from './pages/projects/projects.component';
 import { ContentComponent } from './content/content.component';
 
 export const routes: Routes = [
   {
     path: '',
-    redirectTo: 'content/home',
+    redirectTo: 'home',
     pathMatch: 'full',
   },
   {
@@ -15,15 +15,15 @@ export const routes: Routes = [
     component: ContentComponent,
   },
   {
-    path: 'content/home',
+    path: 'home',
     component: HomeComponent,
   },
   {
-    path: 'content/aboutme',
+    path: 'aboutme',
     component: AboutmeComponent,
   },
   {
-    path: 'content/projects',
+    path: 'projects',
     component: ProjectsComponent,
   },
 ];
