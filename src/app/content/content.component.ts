@@ -7,19 +7,4 @@ import { Component } from '@angular/core';
   templateUrl: './content.component.html',
   styleUrl: './content.component.css',
 })
-export class ContentComponent {
-  cards = [
-    {
-      title: 'Card 1',
-    },
-    {
-      title: 'Card 2',
-    },
-    {
-      title: 'Card 3',
-    },
-    {
-      title: 'Card 4',
-    },
-  ];
-}
+export class ContentComponent {}

@@ -8,5 +8,5 @@
 }
 
 .header-link { 
-    @apply mr-6 hover:text-gray-900 dark:hover:text-green-500
+    @apply mr-6 hover:text-red-700 dark:hover:text-green-500 font-medium
 }
